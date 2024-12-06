@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar Interativo</title>
+    <link rel="stylesheet" href="placar/assets/css/style.css">
+</head>
+<body>
+    <div id="placar">
+        <h1>CORINTHIANS X PALMEIRAS</h1>
+        <div class="time">
+            <h2>CORINTHIANS</h2>
+            <p id="score1">0</p>
+            <button onclick="incrementScore('score1')">GOL</button>
+            <button onclick="decrementScore('score1')">VAR</button>
+            <button onclick="resetScore('score1')">ZERAR</button>
+        </div>
+        <div class="time">
+            <h2>PALMEIRAS</h2>
+            <p id="score2">0</p>
+            <button onclick="incrementScore('score2')">GOL</button>
+            <button onclick="decrementScore('score2')">VAR</button>
+            <button onclick="resetScore('score2')">ZERAR</button>
+        </div>
+
+    </div>
+    <script src="placar/assets/js/placar.js"></script>
+</body>
+</html>
